@@ -62,3 +62,19 @@ else:
 current_text = self.input_field.text() 
 new_text = current_text + text 
 self.input_field.setText(new_text)
+from PyQt5.QtWidgets 
+import QApplication 
+from model import 
+CalculatorModel 
+from view 
+import 
+CalculatorVie 
+wimport sys 
+class 
+Calcu 
+lator 
+Contr 
+oller 
+:def 
+init 
+(self 
